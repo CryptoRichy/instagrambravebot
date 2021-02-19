@@ -18,8 +18,9 @@ To install the driver, go to https://chromedriver.chromium.org/downloads and pic
 
 5. Run the script as brave.py and Selenium should open the browser for you.
 
+# Why did you make this?
 
+I saw someone make a Chrome-version of this, however the entire process was bad. It stopped functioning the moment it encountered no follow buttons on the page. I also tried first to make Selenium scroll down bit by bit, but to make it easier, it would refresh after every tenth follow. 
+Be warned however, Instagram knows this and they have put in procedures which block you from following or unfollowing anyone for 15 minutes if you abuse it. You do not get any other account restrictions though.
 
-
-
-
+Have fun.
