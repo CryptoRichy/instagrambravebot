@@ -44,7 +44,7 @@ def Unfollow():
     browser.find_element_by_xpath('//button[@type="submit"]')\
         .click()
     sleep(5)
-    browser.get("https://www.instagram.com/quercusub/")
+    browser.get("https://www.instagram.com/YOUR-USERNAME-HERE/") # Input your username here.
     following = browser.find_element_by_partial_link_text("following")
     following.click()
     sleep(5)
