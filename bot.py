@@ -43,11 +43,11 @@ def Unfollow(parsed_args):
     bravepath = input("Brave path: ")
     ig_username = input("Instagram username: ")
     ig_password = input("Instagram password: ")
-    driver_path = str(chromedriverpath) 
+    chromedriver_path = str(chromedriverpath) 
     brave_path = str(bravepath) 
     option = webdriver.ChromeOptions()
     option.binary_location = brave_path
-    browser = webdriver.Chrome(executable_path=driver_path, options=option)
+    browser = webdriver.Chrome(executable_path=chromedriver_path, options=option)
     browser.get("https://www.instagram.com")
     sleep(5)
     browser.find_element_by_xpath('//button[@class="aOOlW  bIiDR  "]')\
