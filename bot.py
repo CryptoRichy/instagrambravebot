@@ -24,7 +24,7 @@ def Follow(parsed_args):
     browser.find_element_by_xpath("//input[@name=\"username\"]")\
         .send_keys(ig_username) 
     browser.find_element_by_xpath("//input[@name=\"password\"]")\
-        .send_keys(ig_password) # Input your password here.
+        .send_keys(ig_password)
     browser.find_element_by_xpath('//button[@type="submit"]')\
         .click()
     sleep(5)
@@ -43,8 +43,8 @@ def Unfollow(parsed_args):
     bravepath = input("Brave path: ")
     ig_username = input("Instagram username: ")
     ig_password = input("Instagram password: ")
-    driver_path = str(chromedriverpath) # Change driver path.
-    brave_path = str(bravepath) # Change brave path.
+    driver_path = str(chromedriverpath) 
+    brave_path = str(bravepath) 
     option = webdriver.ChromeOptions()
     option.binary_location = brave_path
     browser = webdriver.Chrome(executable_path=driver_path, options=option)
