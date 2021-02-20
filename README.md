@@ -2,7 +2,8 @@
 This is a Instagram unfollow/follow bot which uses Selenium to automate its functions, with the Brave Browser.
 
 # Instructions
-1. The script will first need dependencies, so navigate to the directory and type "pip install -r requirements.txt"
+1. The script will first need dependencies, so navigate to the directory and using command prompt type:
+- pip install -r requirements.txt
 
 2. Usage: 
 - python bot.py --follow
