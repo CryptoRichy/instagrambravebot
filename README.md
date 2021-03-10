@@ -1,6 +1,6 @@
 # Instagram-Brave-Bot
 This is a Instagram unfollow/follow bot which uses Selenium to automate its functions, with the Brave Browser.
-
+![](images/instagram-brave-bot.png)
 # Instructions
 1. The script will first need dependencies, so navigate to the directory and using command prompt type:
 - pip install -r requirements.txt
