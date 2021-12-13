@@ -1,6 +1,6 @@
-# Instagram-Brave-Bot
-# Created by https://github.com/Splintaz
-from idlelib import browser
+# Instagram Brave Bot
+# Made for Linux. Created by https://github.com/Splintaz
+
 import password as password
 from selenium import webdriver
 from time import sleep
@@ -8,8 +8,8 @@ import argparse
 import textwrap
 
 def Follow(parsed_args):
-    chromedriverpath = input("Chromedriver path: ")
-    bravepath = input("Brave path: ")
+    chromedriverpath = "/usr/bin/chromedriver"
+    bravepath = "/opt/brave.com/brave/brave"
     ig_username = input("Instagram username: ")
     ig_password = input("Instagram password: ")
     chromedriver_path = str(chromedriverpath) 
@@ -39,8 +39,8 @@ def Follow(parsed_args):
         sleep(3)
     
 def Unfollow(parsed_args):
-    chromedriverpath = input("Chromedriver path: ")
-    bravepath = input("Brave path: ")
+    chromedriverpath = "/usr/bin/chromedriver"
+    bravepath = "/opt/brave.com/brave/brave"
     ig_username = input("Instagram username: ")
     ig_password = input("Instagram password: ")
     chromedriver_path = str(chromedriverpath) 
