@@ -39,8 +39,8 @@ def Follow(parsed_args):
         sleep(3)
     
 def Unfollow(parsed_args):
-    chromedriverpath = input("Chromedriver path: ")
-    bravepath = input("Brave path: ")
+    chromedriverpath = "/usr/bin/chromedriver"
+    bravepath = "/opt/brave.com/brave/brave"
     ig_username = input("Instagram username: ")
     ig_password = input("Instagram password: ")
     chromedriver_path = str(chromedriverpath) 
