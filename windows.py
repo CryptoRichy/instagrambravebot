@@ -1,5 +1,5 @@
 # Instagram Brave Bot
-# Made for Linux. Created by https://github.com/Splintaz
+# Made for WIndows. Created by https://github.com/Splintaz
 
 import password as password
 from selenium import webdriver
